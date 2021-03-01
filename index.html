@@ -9,14 +9,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
   
   <title>Frontend Mentor | Loopstudios landing page</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
   <header>
@@ -30,6 +26,7 @@
           <li>Products</li>
           <li>Support</li>
         </ul>
+        <div id="hamburger"></div>
       </nav>
       <section id="slogan">
         <div>
@@ -51,7 +48,7 @@
   <section id="creations">
     <div class="header">
       <h1>OUR CREATIONS</h1>
-      <div class="btn">SEE ALL</div>
+      <div class="btn desktop">SEE ALL</div>
     </div>
     <div class="grid">
       <div class="item">
@@ -95,8 +92,14 @@
         <div class="overlay"><h1>MAKE IT FISHEYE</h1></div>
       </div>
     </div>
-    <div class="btn">SEE ALL</div>
+    <div class="btn mobile">SEE ALL</div>
   </section>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/gauranajose">Jose Gaurana</a>.
+  </div>
+
   <footer>
     <div class="container">
       <div class="first">
@@ -120,45 +123,5 @@
       </div>
     </div>
   </footer>
-  <!-- About
-  Careers
-  Events
-  Products
-  Support
-
-  Immersive experiences that deliver
-
-  The leader in interactive VR
-
-  Founded in 2011, Loopstudios has been producing world-class virtual reality 
-  projects for some of the best companies around the globe. Our award-winning 
-  creations have transformed businesses through digital experiences that bind 
-  to their brand.
-
-  Our creations
-
-  See all
-
-  Deep earth
-  Night arcade
-  Soccer team VR
-  The grid
-  From up above VR
-  Pocket borealis
-  The curiosity
-  Make it fisheye
-
-  About
-  Careers
-  Events
-  Products
-  Support
-
-  © 2021 Loopstudios. All rights reserved. -->
-
-  <!-- <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div> -->
 </body>
 </html>
